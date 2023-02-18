@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 Jan 2023, 18:35:11
+    Author     : mella
+*/
+.card {
+border-color: grey;
+	border-size: -1px;
+	border-style: solid;
+	
+	webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    background-color: gray;
+  
+}
+.back{
+    
+     min-height: 100vh;
+    width: 100%;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/000/494/172/original/logo-house-for-sale-rental-or-home-ownership-vector-illustration.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.container
+{
+	margin-top:8%;
+	margin-left:8%;
+}
+.container h3{
+    
+    position: absolute;
+    top: 3%;
+    left: calc(47% - 40px);  
+    
+}
+.card:hover
+{
+-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+.col-lg-2{
+    
+position: absolute;
+    top: 20%;
+    left: calc(20% - 70px);    
+
+}
+.col-lg-3{
+    
+position: absolute;
+    top: 20%;
+    left: calc(40% - 30px);    
+
+}
+.col-lg-4{
+    
+   position: absolute;
+    top: 20%;
+    left: calc(60% - 0px);  
+    
+}
+ 
